@@ -19,40 +19,40 @@
 
 /* ======================= common css start ============================ */
 /* ====================== banner part start here ======================= */
-header {
+header .banner {
     background-image: url(../images/banner3.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 216px 230px 166px 0;
+}
+header .banner .container{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-align: end;
 }
 
-header .banner {
-    padding: 216px 192px 166px 0;
-    margin-left: 821px;
-}
-
-header .banner h1 {
+header .banner .text h1 {
     color: #FFF;
-    text-align: right;
     font-family: Work Sans;
     font-size: 65px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-bottom: 24px;
+    width: 525px;
 }
 
-header .banner p {
+header .banner .text p {
     color: #FFF;
-    text-align: right;
     font-family: Work Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 32px;
-}
-
-header .banner button {
-    margin-left: 345px;
+    width: 494px;
 }
 
 /* ====================== banner part end here ======================= */
@@ -60,6 +60,7 @@ header .banner button {
 main #my-failure-previous-year {
     display: flex;
     column-gap: 105px;
+    justify-content: center;
 }
 
 main #my-failure-previous-year .image {
@@ -92,6 +93,7 @@ main #my-failure-previous-year .text P {
 
 main #my-failure-previous-year .text .paragrph {
     margin-bottom: 16px;
+    width: 416px;
 }
 
 main #my-failure-previous-year .text i {
@@ -104,6 +106,7 @@ main #my-failure-previous-year .text i {
 /* ============================== my plans start here ============================= */
 #my-plan {
     margin-bottom: 135px;
+    text-align: center;
 }
 
 #my-plan h4 {
@@ -152,15 +155,17 @@ main #my-failure-previous-year .text i {
 
 /* ============================ my plans end here ======================== */
 /* ====================== positive mind start here ======================= */
-#positive-mindset{
+#positive-mindset {
     margin-bottom: 130px;
 }
+
 #positive-mindset .main-container {
-    background-image: url(../images/watch.png);
+    background-image: url(../images/gradient1.png),url(../images/watch.png);
     background-repeat: no-repeat;
     width: 1140px;
     margin: 0 auto;
 }
+
 #positive-mindset .main-container .text {
     padding: 59px 617px 59px 64px;
 }
@@ -176,3 +181,81 @@ main #my-failure-previous-year .text i {
 }
 
 /* ====================== positive mind end here ======================== */
+/* ====================== footer part start here ======================== */
+footer {
+    background: #151414;
+    padding: 130px 230px;
+}
+
+footer .container {
+    display: flex;
+    column-gap: 331px;
+    justify-content: center;
+}
+
+footer .container .future-part h3 {
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+footer .container .future-part p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+footer .container .future-part .paragrph {
+    margin-bottom: 24px;
+}
+
+footer .container .future-part .icon img {
+    margin-right: 10px;
+}
+
+footer .container .subscribe h2 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 31px;
+}
+
+footer .container .subscribe input {
+    color: #F3F3F3;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 21px 158px 22px 21px;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    margin-bottom: 16px;
+}
+
+footer .container .subscribe button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px 36px;
+    border-radius: 8px;
+    background: #005FAC;
+    border: 0;
+}
+
+/* ====================== footer part end here ======================== */
