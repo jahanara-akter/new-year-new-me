@@ -61,12 +61,15 @@ main #my-failure-previous-year {
     display: flex;
     column-gap: 105px;
 }
-main #my-failure-previous-year .image{
+
+main #my-failure-previous-year .image {
     margin: 140px 0 130px 229px;
 }
-main #my-failure-previous-year .text{
-   margin: 370px 212px 214px 0;
+
+main #my-failure-previous-year .text {
+    margin: 370px 212px 214px 0;
 }
+
 main #my-failure-previous-year .text h2 {
     color: #151414;
     font-family: Work Sans;
@@ -76,7 +79,8 @@ main #my-failure-previous-year .text h2 {
     line-height: normal;
     margin-bottom: 24px;
 }
-main #my-failure-previous-year .text P{
+
+main #my-failure-previous-year .text P {
     color: #444343;
     font-family: Work Sans;
     font-size: 16px;
@@ -85,18 +89,90 @@ main #my-failure-previous-year .text P{
     line-height: 26px;
     margin-bottom: 8px;
 }
-main #my-failure-previous-year .text .paragrph{
+
+main #my-failure-previous-year .text .paragrph {
     margin-bottom: 16px;
 }
-main #my-failure-previous-year .text i{
+
+main #my-failure-previous-year .text i {
     margin-right: 10px;
     color: #16D887;
     width: 24px;
 }
+
 /* ====================== my-failure-previous-year end here ======================= */
-/* ====================== my plans start here ======================= */
-#my-plan .main{
-    display: flex;
-  column-gap: 86px;
+/* ============================== my plans start here ============================= */
+#my-plan {
+    margin-bottom: 135px;
 }
-/* ====================== my plans start here ======================= */
+
+#my-plan h4 {
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+#my-plan .main {
+    display: flex;
+    column-gap: 86px;
+    justify-content: center;
+    text-align: center;
+}
+
+#my-plan .main .plan .image {
+    margin-bottom: 21px;
+    text-align: center;
+}
+
+#my-plan .main .plan h5 {
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+#my-plan .main .plan p {
+    color: #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* ============================ my plans end here ======================== */
+/* ====================== positive mind start here ======================= */
+#positive-mindset{
+    margin-bottom: 130px;
+}
+#positive-mindset .main-container {
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    width: 1140px;
+    margin: 0 auto;
+}
+#positive-mindset .main-container .text {
+    padding: 59px 617px 59px 64px;
+}
+
+#positive-mindset .main-container .text h3 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+/* ====================== positive mind end here ======================== */
