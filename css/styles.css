@@ -1,0 +1,53 @@
+/* ======================= common css start ============================ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    color: #005FAC;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 21px 25px 20px 26px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+}
+
+/* ======================= common css start ============================ */
+/* ====================== banner part start here ======================= */
+header{
+    background-image: url(../images/banner3.png);
+    background-repeat: no-repeat;
+}
+header .banner{
+    padding: 216px 192px 166px 0;
+    margin-left: 821px;
+}
+header .banner h1{
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+header .banner p{
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+header .banner button{
+    margin-left: 345px;
+}
+/* ====================== banner part start here ======================= */
