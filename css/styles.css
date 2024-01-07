@@ -19,15 +19,17 @@
 
 /* ======================= common css start ============================ */
 /* ====================== banner part start here ======================= */
-header{
+header {
     background-image: url(../images/banner3.png);
     background-repeat: no-repeat;
 }
-header .banner{
+
+header .banner {
     padding: 216px 192px 166px 0;
     margin-left: 821px;
 }
-header .banner h1{
+
+header .banner h1 {
     color: #FFF;
     text-align: right;
     font-family: Work Sans;
@@ -37,7 +39,8 @@ header .banner h1{
     line-height: normal;
     margin-bottom: 24px;
 }
-header .banner p{
+
+header .banner p {
     color: #FFF;
     text-align: right;
     font-family: Work Sans;
@@ -47,7 +50,47 @@ header .banner p{
     line-height: 26px;
     margin-bottom: 32px;
 }
-header .banner button{
+
+header .banner button {
     margin-left: 345px;
 }
-/* ====================== banner part start here ======================= */
+
+/* ====================== banner part end here ======================= */
+/* ====================== my-failure-previous-year start here ======================= */
+main #my-failure-previous-year {
+    display: flex;
+    column-gap: 105px;
+}
+main #my-failure-previous-year .image{
+    margin: 140px 0 130px 229px;
+}
+main #my-failure-previous-year .text{
+   margin: 370px 212px 214px 0;
+}
+main #my-failure-previous-year .text h2 {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+main #my-failure-previous-year .text P{
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+main #my-failure-previous-year .text .paragrph{
+    margin-bottom: 16px;
+}
+main #my-failure-previous-year .text i{
+    margin-right: 10px;
+    color: #16D887;
+    width: 24px;
+}
+/* ====================== my-failure-previous-year start here ======================= */
