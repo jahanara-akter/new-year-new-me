@@ -93,4 +93,10 @@ main #my-failure-previous-year .text i{
     color: #16D887;
     width: 24px;
 }
-/* ====================== my-failure-previous-year start here ======================= */
+/* ====================== my-failure-previous-year end here ======================= */
+/* ====================== my plans start here ======================= */
+#my-plan .main{
+    display: flex;
+  column-gap: 86px;
+}
+/* ====================== my plans start here ======================= */
